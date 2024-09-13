@@ -52,12 +52,17 @@ header {
     padding: 0.5rem 1rem;
 }
 
+.dropdown-menu.active {
+    display: block;
+}
+
 .dropdown-menu a:hover {
     background-color: #5a77c8;
 }
 
 .dropdown-menu a:active {
     background-color: #092675;
+    display: block;
 }
 
 nav {

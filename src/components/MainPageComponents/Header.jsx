@@ -1,12 +1,32 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import "../../styles/MainPageStyles/header.css";
 
 const Header = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const menuRef = useRef(null);
+
     const toggleMenu = () => {
-        const menu = document.querySelector('.dropdown-menu');
-        menu.classList.toggle('active');
+        setIsMenuOpen(prevState => !prevState);
     };
+
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
+
+    // Закрытие меню при клике вне его области
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (menuRef.current && !menuRef.current.contains(event.target)) {
+                closeMenu();
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
     return (
         <header className="header">
@@ -18,9 +38,9 @@ const Header = () => {
                             <div className="burger-line"></div>
                             <div className="burger-line"></div>
                         </div>
-                        <div className="dropdown-menu">
-                            <a href="index.html">English</a>
-                            <a href="html/ru-index.html">Русский</a>
+                        <div className="dropdown-menu" ref={menuRef} style={{ display: isMenuOpen ? 'block' : 'none' }}>
+                            <Link to="/" onClick={closeMenu}>English</Link>
+                            <Link to="/ru" onClick={closeMenu}>Русский</Link>
                         </div>
                     </div>
                     <ul className="nav-links">
