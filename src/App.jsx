@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
-import Main from './components/Main.jsx';
-import HirePage from './components/HirePage.jsx';
-import './styles/app.css';
+import Header from './components/MainPageComponents/Header.jsx';
+import Footer from './components/MainPageComponents/Footer.jsx';
+import Main from './components/MainPageComponents/Main.jsx';
+import HirePage from './components/HirePageComponents/HirePage.jsx';
+import './styles/MainPageStyles/app.css';
 
 function App() {
   return (

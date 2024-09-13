@@ -1,6 +1,6 @@
 import React from 'react';
-import devLogo from '../assets/hire-page.png';
-import '../styles/mainHire.css';
+import devLogo from '../../assets/hire-page.png';
+import "../../styles//HirePageStyles/mainHire.css";
 
 const MainHire = () => {
     return (

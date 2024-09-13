@@ -1,8 +1,8 @@
 import React from 'react';
-import "./../styles/footer.css";
-import emailIcon from '../assets/Email-icon.svg';
-import tgIcon from '../assets/TG-logo.svg';
-import vkIcon from '../assets/VK-logo.svg';
+import "../../styles/MainPageStyles/footer.css";
+import emailIcon from "../../assets/Email-icon.svg";
+import tgIcon from "../../assets/TG-logo.svg";
+import vkIcon from "../../assets/VK-logo.svg";
 
 const Footer = () => {
     return (

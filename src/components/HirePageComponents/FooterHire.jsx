@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/footerHire.css'; // Используйте отдельные стили для Footer на странице Hire
+import "../../styles/HirePageStyles/footerHire.css";
 
 const FooterHire = () => {
     return (

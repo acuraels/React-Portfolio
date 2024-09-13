@@ -1,19 +1,15 @@
 import React from 'react';
-import "./../styles/main.css";
+import "../../styles/MainPageStyles/main.css";
 
+import meImage from "../../assets/me.png";
+import htmlLogo from "../../assets/HTML5-logo.svg";
+import cssLogo from "../../assets/CSS3-logo.svg";
+import jsLogo from "../../assets/JS-logo.svg";
+import yachtProject from "../../assets/yacht-project.png";
+import butterProject from "../../assets/butter-project.png";
+import UrFUlogo from "../../assets/UrFU.svg";
+import devLogo from "../../assets/Dev-logo.svg";
 
-
-import meImage from '../assets/me.png';
-
-import htmlLogo from '../assets/HTML5-logo.svg';
-import cssLogo from '../assets/CSS3-logo.svg';
-import jsLogo from '../assets/JS-logo.svg';
-
-import yachtProject from '../assets/yacht-project.png';
-import butterProject from '../assets/butter-project.png';
-
-import UrFUlogo from '../assets/UrFU.svg';
-import devLogo from '../assets/Dev-logo.svg';
 
 
 
