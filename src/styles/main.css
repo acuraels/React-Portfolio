@@ -22,10 +22,6 @@
     background-color: #092675;
 }
 
-
-
-
-
 .hero {
     display: flex;
     flex-direction: column;
@@ -254,6 +250,10 @@
     font-weight: 400;
     font-size: 0.9375rem;
 }
+
+
+
+
 
 @media (max-width: 1450px) and (min-width: 1015px) {
 

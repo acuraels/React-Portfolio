@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./../styles/header.css";
 
 const Header = () => {
@@ -39,7 +40,7 @@ const Header = () => {
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <a className="btn-nav" href="html/hire.html">Hire me</a>
+                    <Link className="btn-nav" to="/hire">Hire me</Link>
                 </nav>
             </div>
         </header>

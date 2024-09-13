@@ -1,0 +1,151 @@
+.hire-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 5vw;
+    margin: 5rem auto;
+}
+
+.hire-hero-img {
+    width: 100%;
+    max-width: 14.75rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.hire-hero-title {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background: linear-gradient(45deg, #0ef2d7, #89c217);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+    margin-bottom: 2rem;
+}
+
+.hire-hero-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.hire-hero-text {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #C5C5C5;
+    text-align: justify;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+}
+
+.hire-btn-hero {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #fff;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hire-btn-hero:hover {
+    background-color: #b73ba6;
+}
+
+.hire-btn-hero:active {
+    background-color: #ffe100;
+}
+
+
+
+
+
+@media (max-width: 1450px) {
+    .hire-hero {
+        padding: 2rem 10vw;
+    }
+
+    .hire-hero-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .hire-hero-text {
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+        padding: 0 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hire-hero-text {
+        line-height: 1.5rem;
+        width: 50rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hire-hero {
+        padding: 2rem 5vw;
+    }
+
+    .hire-hero-title {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .hire-hero-text {
+        width: 20rem;
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hire-hero {
+        padding: 1.5rem 5vw;
+        margin: 2rem auto;
+    }
+
+    .hire-hero-title {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .hire-hero-text {
+        width: 20rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .hire-btn-hero {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hire-hero {
+        padding: 1rem 3vw;
+        margin: 1.5rem auto;
+    }
+
+    .hire-hero-title {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .hire-hero-text {
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+        width: 20rem;
+    }
+
+    .hire-btn-hero {
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+    }
+}
