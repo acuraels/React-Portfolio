@@ -14,7 +14,6 @@ const Header = () => {
         setIsMenuOpen(false);
     };
 
-    // Закрытие меню при клике вне его области
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -38,7 +37,7 @@ const Header = () => {
                             <div className="burger-line"></div>
                             <div className="burger-line"></div>
                         </div>
-                        <div className="dropdown-menu" ref={menuRef} style={{ display: isMenuOpen ? 'block' : 'none' }}>
+                        <div className={`dropdown-menu ${isMenuOpen ? 'active' : ''}`} ref={menuRef}>
                             <Link to="/" onClick={closeMenu}>English</Link>
                             <Link to="/ru" onClick={closeMenu}>Русский</Link>
                         </div>

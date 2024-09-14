@@ -26,7 +26,7 @@ const Main = () => {
                 <p className="hero-text">
                     I'm a beginner front-end developer with experience in languages such as Python and C#.
                     Currently, I'm actively learning JavaScript. I wrote a game on Windows Forms.
-                    Created three static sites with a pleasant UI. Currently a student at UrFU, my goal in the
+                    Created several web-sites with a pleasant UI. Currently a student at UrFU, my goal in the
                     future is to become a Full-Stack web developer. My English proficiency is at a B2-C1 level.
                 </p>
 

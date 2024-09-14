@@ -44,19 +44,27 @@
 .hire-btn-hero {
     padding: 1rem 2rem;
     font-size: 1rem;
-    color: #000000;
-    background-color: #fff;
+    color: #fff;
+    background: linear-gradient(45deg, #4a90e2, #5a3fe8);
     border-radius: 3.125rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
 }
 
 .hire-btn-hero:hover {
-    background-color: #b73ba6;
+    background: linear-gradient(45deg, #5a3fe8, #4a90e2);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 .hire-btn-hero:active {
-    background-color: #ffe100;
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 

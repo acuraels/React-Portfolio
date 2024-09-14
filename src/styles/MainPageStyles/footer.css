@@ -72,6 +72,28 @@ footer {
     margin-top: 1.09375rem;
 }
 
+.footer-email a,
+.footer-links a {
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-email a:hover,
+.footer-links a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.email-icon,
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.footer-email a:hover .email-icon,
+.footer-links a:hover .icon {
+    transform: scale(1.1);
+}
+
 
 
 
