@@ -59,7 +59,7 @@ const Header = () => {
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <Link className="btn-nav" to="/hire">Hire me</Link>
+                    <Link className="btn-nav" to="/hirepage">Hire me</Link>
                 </nav>
             </div>
         </header>
