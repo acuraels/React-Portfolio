@@ -8,7 +8,7 @@ const reactRoot = createRoot(rootElement);
 
 reactRoot.render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/React-Portfolio'>
       <App />
     </BrowserRouter>
   </StrictMode>,
